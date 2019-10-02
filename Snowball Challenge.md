@@ -34,3 +34,13 @@ At the start of the lab, find another group of four students and give each other
 6.	Good luck!
 Business Case
 Create a low-tech or high-tech solution that works for everyone. The solution could be a redesign of an existing solution or a completely new product or service. The sky is the limit. Identify a problem, and create a product or service that solves the problem.
+
+
+Thomas
+Js
+
+Andreas
+Sex it up
+
+Knut og fredrik
+Html css
