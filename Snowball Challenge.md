@@ -1,4 +1,4 @@
-**The Snowball Challenge**
+# **The Snowball Challenge**
 
 *Duration for all obligs:*
 
