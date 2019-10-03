@@ -55,6 +55,7 @@ main {
 .obj1 {
   flex: 1;
   padding-top: 50px;
+  text-align: center;
 }
 .obj2 {
   flex: 2;
@@ -62,6 +63,7 @@ main {
 .obj3 {
   flex: 1;
   padding-top: 50px;
+  text-align: center;
 }
 .text {
   margin-top: 40px;
