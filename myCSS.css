@@ -1,0 +1,18 @@
+div {
+  border: 3px solid black;
+}
+header {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.meny ul {
+  list-style: none;
+}
+.meny li {
+  text-align: center;
+  display: inline-block;
+}
