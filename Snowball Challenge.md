@@ -32,5 +32,7 @@ At the start of the lab, find another group of four students and give each other
 4.	Give another group feedback, and receive feedback, then redesign.
 5.	Submit the list of the students on your team, URL, documentation of processes, and decisions( which is 1, 2, 4) on Canvas.,
 6.	Good luck!
+
+
 Business Case
 Create a low-tech or high-tech solution that works for everyone. The solution could be a redesign of an existing solution or a completely new product or service. The sky is the limit. Identify a problem, and create a product or service that solves the problem.
