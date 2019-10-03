@@ -1,10 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: url('img/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  dis
+}
+
+.logo {
+  font-size: 2em;
+  margin: 200px auto;
+  border: none;
+}
+
 div {
   border: 3px solid black;
 }
 header {
   z-index: 1;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
 }
