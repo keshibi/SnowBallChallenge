@@ -49,6 +49,10 @@ main {
   display: inline-block;
   padding: 5px 20px;
 }
+.smallLogo {
+  width: 40px;
+  height: auto;
+}
 .container {
   margin-top: 50px;
   display: flex;
@@ -66,13 +70,11 @@ main {
 .obj3 {
   flex: 1;
   padding-top: 250px;
-  text-align: center;
 }
 .text {
   margin-top: 40px;
   width: 80%;
   margin-left: 10%;
-  text-align: center;
 }
 
 .maps {
