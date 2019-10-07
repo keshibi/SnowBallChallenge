@@ -82,3 +82,32 @@ main {
   height: auto;
   margin-left: 25px;
 }
+
+footer {
+  background-color: #222222;
+  color: aliceblue;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.fotHead {
+  margin-left: 75px;
+  margin-top: ;
+}
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fot1 {
+  flex: 2;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25;
+}
+.fot2 {
+  flex: 1;
+  margin: 25px;
+}
+.fot3 {
+  flex: 1;
+  margin: 25px;
+}
