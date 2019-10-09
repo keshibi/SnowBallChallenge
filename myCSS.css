@@ -17,8 +17,26 @@
 
 .logo {
   font-size: 4em;
-  margin: 200px 20%;
+  margin: 200px 20% 0 20%;
   border: none;
+}
+.logo--text {
+  margin: 2px 20% 0 20%;
+  border: none;
+  font-size: 1.2em;
+  height: auto;
+}
+.logo--button {
+  margin: 20px 20% 0 20%;
+  padding: 10px;
+  font-size: 1.2em;
+  background: white;
+  border: 1px solid black;
+}
+
+.logo--button a {
+  text-decoration: none;
+  color: black;
 }
 main {
   border: 1px solid black;
