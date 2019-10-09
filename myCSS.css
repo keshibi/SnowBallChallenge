@@ -29,6 +29,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: white;
 }
 h2,
 h3,
@@ -98,7 +99,7 @@ footer {
 }
 .fotHead {
   margin-left: 75px;
-  margin-top: ;
+
 }
 .container1 {
   display: flex;
@@ -126,4 +127,14 @@ fot12 {
 .fot3 {
   flex: 1;
   margin: 25px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 70px;
 }
