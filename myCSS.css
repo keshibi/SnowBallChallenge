@@ -68,7 +68,7 @@ p {
 .obj1 {
   flex: 1;
   padding-top: 250px;
-  text-align: center;
+  padding-left: 40px;
   list-style-position: inside;
 }
 .obj2 {
@@ -77,6 +77,7 @@ p {
 .obj3 {
   flex: 1;
   padding-top: 250px;
+  padding-left: 40px;
 }
 .text {
   margin-top: 40px;
@@ -85,9 +86,8 @@ p {
 }
 
 .maps {
-  width: 550px;
+  width: 100%;
   height: auto;
-  margin-left: 25px;
 }
 
 footer {
