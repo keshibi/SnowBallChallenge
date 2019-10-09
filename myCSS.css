@@ -11,6 +11,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 .logo {
   font-size: 2em;
   margin: 200px auto;
@@ -31,6 +33,7 @@ header {
   left: 0;
   background-color: white;
 }
+h1,
 h2,
 h3,
 h4 {
@@ -44,18 +47,28 @@ p {
   text-align: center;
 }
 .meny ul {
-  list-style: none;
+
+list-style: none;
+
 }
 .meny li {
   text-align: center;
   display: inline-block;
   padding: 0px 5px;
+
+
 }
 .meny a {
   color: gray;
   text-decoration: none;
   display: inline-block;
   padding: 5px 20px;
+}
+.img-tekst{
+
+text-align: center;
+justify-content: center;
+
 }
 .smallLogo {
   width: 40px;
@@ -79,6 +92,15 @@ p {
   flex: 1;
   padding-top: 250px;
   padding-left: 40px;
+}
+.obj-historie{
+  flex: 1;
+  padding-top: 20px;
+  padding-left: 40px;
+  list-style-position: inside;
+  line-height: 30px;
+
+
 }
 .text {
   margin-top: 40px;
