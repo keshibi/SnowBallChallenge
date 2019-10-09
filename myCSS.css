@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 .background {
   height: 100vh;
   width: 100vw;
@@ -12,7 +11,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .logo {
   font-size: 2em;
   margin: 200px auto;
@@ -20,6 +18,8 @@
 }
 main {
   border: 1px solid black;
+  width: 80%;
+  margin-left: 10%;
 }
 div {
   border: 1px solid black;
@@ -30,10 +30,17 @@ header {
   top: 0;
   left: 0;
 }
-
-main {
-  width: 80%;
-  margin-left: 10%;
+h2,
+h3,
+h4 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+p {
+  margin-bottom: 15px;
+}
+.center {
+  text-align: center;
 }
 .meny ul {
   list-style: none;
@@ -98,14 +105,23 @@ footer {
   justify-content: space-evenly;
 }
 .fot1 {
-  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
   margin-left: 50px;
   margin-top: 25px;
   margin-bottom: 25;
 }
+fot11 {
+  flex: 1;
+}
+fot12 {
+  flex: 2;
+}
 .fot2 {
   flex: 1;
   margin: 25px;
+  padding-top: 80px;
 }
 .fot3 {
   flex: 1;
