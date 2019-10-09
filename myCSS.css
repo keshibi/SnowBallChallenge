@@ -15,7 +15,6 @@
   background-size: cover;
 }
 
-
 .logo {
   font-size: 4em;
   margin: 200px 20%;
@@ -50,16 +49,12 @@ p {
   text-align: center;
 }
 .meny ul {
-
-list-style: none;
-
+  list-style: none;
 }
 .meny li {
   text-align: center;
   display: inline-block;
   padding: 0px 5px;
-
-
 }
 .meny a {
   color: gray;
@@ -67,11 +62,9 @@ list-style: none;
   display: inline-block;
   padding: 5px 20px;
 }
-.img-tekst{
-
-text-align: center;
-justify-content: center;
-
+.img-tekst {
+  text-align: center;
+  justify-content: center;
 }
 .smallLogo {
   width: 40px;
@@ -96,7 +89,7 @@ justify-content: center;
   padding-top: 250px;
   padding-left: 40px;
 }
-.obj-historie{
+.obj-historie {
   flex: 1;
   padding-top: 20px;
   padding-left: 40px;
@@ -123,7 +116,6 @@ footer {
 }
 .fotHead {
   margin-left: 75px;
-
 }
 .container1 {
   display: flex;
