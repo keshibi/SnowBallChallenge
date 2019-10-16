@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
-
 .background {
   height: 100vh;
   width: 100vw;
@@ -14,11 +16,33 @@
 }
 
 .logo {
-  font-size: 2em;
-  margin: 200px auto;
+  font-size: 4em;
+  margin: 200px 20% 0 20%;
   border: none;
 }
+.logo--text {
+  margin: 2px 20% 0 20%;
+  border: none;
+  font-size: 1.2em;
+  height: auto;
+}
+.logo--button {
+  margin: 20px 20% 0 20%;
+  padding: 10px;
+  font-size: 1.2em;
+  background: white;
+  border: 1px solid black;
+}
 
+.logo--button a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  border: 1px solid black;
+  width: 80%;
+  margin-left: 10%;
+}
 div {
   border: 1px solid black;
 }
@@ -27,11 +51,20 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: white;
 }
-
-main {
-  width: 80%;
-  margin-left: 10%;
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+p {
+  margin-bottom: 15px;
+}
+.center {
+  text-align: center;
 }
 .meny ul {
   list-style: none;
@@ -47,6 +80,14 @@ main {
   display: inline-block;
   padding: 5px 20px;
 }
+.img-tekst {
+  text-align: center;
+  justify-content: center;
+}
+.smallLogo {
+  width: 40px;
+  height: auto;
+}
 .container {
   margin-top: 50px;
   display: flex;
@@ -54,18 +95,74 @@ main {
 }
 .obj1 {
   flex: 1;
-  padding-top: 50px;
-  text-align: center;
+  padding-top: 250px;
+  padding-left: 40px;
+  list-style-position: inside;
 }
 .obj2 {
   flex: 2;
 }
 .obj3 {
   flex: 1;
-  padding-top: 50px;
-  text-align: center;
+  padding-top: 250px;
+  padding-left: 40px;
+}
+.obj-historie {
+  flex: 1;
+  padding-top: 20px;
+  padding-left: 40px;
+  list-style-position: inside;
+  line-height: 30px;
+  font-family: 'Indie Flower', cursive;
 }
 .text {
   margin-top: 40px;
-  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.maps {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #222222;
+  color: aliceblue;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.fotHead {
+  margin-left: 75px;
+}
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fot1 {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25;
+}
+.fot2 {
+  flex: 1;
+  margin: 25px;
+  padding-top: 80px;
+}
+.fot3 {
+  flex: 1;
+  margin: 25px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 70px;
 }
