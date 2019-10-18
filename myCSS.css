@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap"); */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #35495e;
+  background-color: #ecfcff;
+}
 
 * {
   box-sizing: border-box;
@@ -21,18 +27,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 100px; 
 }
 
 #books {
   width: 200px;
-  margin: 80px auto;
+  margin: 0 auto;
   display: block;
+  padding-right: 20px;
 }
 
 .logo {
-  color: #35495e;
-  font-family: "Montserrat", sans-serif;
   font-size: 5em;
+  font-weight: 900;
   margin: 50px 20% 0 20%;
   text-align: center;
   border: none;
@@ -48,23 +55,24 @@
   width: 140px;
   border-radius: 2%; 
   margin: 20px auto;
-  padding: 10px;
+  padding: 20px;
   font-size: 1.2em;
-  background: white;
+  background: #3e64ff;
   display: block;
+  text-align: center; 
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
 }
 
-.logo--button a {
-  text-decoration: none;
-  color: black;
-}
+
 main {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 80%;
   margin-left: 10%;
 }
 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 header {
   z-index: 1;
@@ -86,6 +94,13 @@ p {
 .center {
   text-align: center;
 }
+
+.meny {
+  background-color: #145374;
+  box-shadow: 2px 1px 10px #b1e8ed;
+  height: 70px; 
+}
+
 .meny ul {
   list-style: none;
 }
@@ -95,11 +110,16 @@ p {
   padding: 0px 5px;
 }
 .meny a {
-  color: gray;
+  color: white;
   text-decoration: none;
   display: inline-block;
   padding: 5px 20px;
 }
+.bilde img {
+  border-radius: 2%; 
+  box-shadow: 2px 1px 10px #b1e8ed;
+}
+
 .img-tekst {
   text-align: center;
   justify-content: center;
@@ -155,9 +175,11 @@ footer {
 .fotHead {
   margin-left: 75px;
 }
+
 .container1 {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 100px; 
 }
 .fot1 {
   display: flex;
