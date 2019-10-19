@@ -126,7 +126,7 @@ p {
 }
 .smallLogo {
   width: 40px;
-  height: auto;
+  height: 60px; 
 }
 .container {
   margin-top: 50px;
@@ -156,9 +156,12 @@ p {
   font-family: "Indie Flower", cursive;
 }
 .text {
-  margin-top: 40px;
   width: 80%;
-  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+.text h3 {
+  margin-top: 0px; 
 }
 
 .maps {
@@ -166,7 +169,7 @@ p {
   height: auto;
 }
 
-footer {
+/* footer {
   background-color: #222222;
   color: aliceblue;
   font-weight: 300;
@@ -174,14 +177,26 @@ footer {
 }
 .fotHead {
   margin-left: 75px;
-}
+} */
 
 .container1 {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px; 
+  padding-top: 150px; 
 }
-.fot1 {
+
+footer {
+  width: 100%; 
+  height: 100px; 
+  margin-top: 100px; 
+  background-color: #132743;
+  display: flex;
+}
+
+
+
+
+/* .fot1 {
   display: flex;
   justify-content: flex-end;
   flex: 1;
@@ -197,7 +212,7 @@ footer {
 .fot3 {
   flex: 1;
   margin: 25px;
-}
+} */
 
 .sticky {
   position: fixed;
