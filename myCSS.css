@@ -10,8 +10,8 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
 }
+
 .background {
   height: 100vh;
   width: 100vw;
@@ -187,10 +187,26 @@ p {
 
 footer {
   width: 100%; 
-  height: 100px; 
+  height: 150px; 
   margin-top: 100px; 
   background-color: #132743;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white; 
+}
+
+.fotItem {
+  margin: 0 50px; 
+}
+
+.fotItem p {
+  font-weight: 900;
+}
+
+i {
+  font-size: 3rem;
+  margin: 0 10px; 
 }
 
 
